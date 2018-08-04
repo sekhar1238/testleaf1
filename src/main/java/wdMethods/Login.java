@@ -10,7 +10,7 @@ public class Login extends SeMethods{
 	@Test
 	public void login() {
 		startApp("chrome", "http://leaftaps.com/opentaps");
-		WebElement eleUserName = locateElement("id", "username");
+		WebElement eleUserName = locateElement("id", "username");//bhuvanesh is a selenium wizard
 		type(eleUserName, "DemoSalesManager");
 		WebElement elePassword = locateElement("id","password");
 		type(elePassword, "crmsfa");
@@ -23,7 +23,7 @@ public class Login extends SeMethods{
 		WebElement eleCompName=locateElement("id","createLeadForm_companyName");
 		type(eleCompName,"HCL Technologies");
 		WebElement eleFirstName=locateElement("id","createLeadForm_firstName");
-		type(eleFirstName,"ragesh");
+		type(eleFirstName,"bhuvanesh");//changed by bhuvanesh
 		WebElement eleLastName=locateElement("id","createLeadForm_lastName");
 		type(eleLastName,"t");
 		WebElement eleCurrencyDD=locateElement("id","createLeadForm_currencyUomId");
