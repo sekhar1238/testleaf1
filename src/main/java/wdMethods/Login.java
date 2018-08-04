@@ -23,9 +23,9 @@ public class Login extends SeMethods{
 		WebElement eleCompName=locateElement("id","createLeadForm_companyName");
 		type(eleCompName,"HCL Technologies");
 		WebElement eleFirstName=locateElement("id","createLeadForm_firstName");
-		type(eleFirstName,"Sekhar");
+		type(eleFirstName,"ragesh");
 		WebElement eleLastName=locateElement("id","createLeadForm_lastName");
-		type(eleLastName,"k");
+		type(eleLastName,"t");
 		WebElement eleCurrencyDD=locateElement("id","createLeadForm_currencyUomId");
 		selectDropDownUsingIndex(eleCurrencyDD, 4);
 	}
