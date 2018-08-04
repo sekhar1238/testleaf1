@@ -10,7 +10,7 @@ public class Login extends SeMethods{
 	@Test
 	public void login() {
 		startApp("chrome", "http://leaftaps.com/opentaps");
-		WebElement eleUserName = locateElement("id", "username");
+		WebElement eleUserName = locateElement("id", "username");//bhuvanesh is a selenium wizard
 		type(eleUserName, "DemoSalesManager");
 		WebElement elePassword = locateElement("id","password");
 		type(elePassword, "crmsfa");
