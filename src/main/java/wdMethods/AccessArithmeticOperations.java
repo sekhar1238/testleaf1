@@ -10,7 +10,7 @@ public class AccessArithmeticOperations {
 		aao.multiplyNumberOnebytwo();
 		int z= aao.divideNumberTwoby(5);
 		System.out.println("Result of divide number two by 5 is"+z);
-		
+		System.out.println(3);
 	}
 
 }

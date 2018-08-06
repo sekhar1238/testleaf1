@@ -23,7 +23,7 @@ public class Login extends SeMethods{
 		WebElement eleCompName=locateElement("id","createLeadForm_companyName");
 		type(eleCompName,"HCL Technologies");
 		WebElement eleFirstName=locateElement("id","createLeadForm_firstName");
-		type(eleFirstName,"ragesh");
+		type(eleFirstName,"bhuvanesh");//changed by bhuvanesh
 		WebElement eleLastName=locateElement("id","createLeadForm_lastName");
 		type(eleLastName,"t");
 		WebElement eleCurrencyDD=locateElement("id","createLeadForm_currencyUomId");
