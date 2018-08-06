@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testcases.TC002_CreateLeadNeg">
+        <methods>
+          <include name="login"/>
+          <include name="createLead" invocation-numbers="0 1 2"/>
+          <include name="closerBrowser"/>
+          <include name="stopSuite"/>
+          <include name="startSuite"/>
+          <include name="starttest"/>
+          <include name="setValues"/>
+        </methods>
+      </class> <!-- testcases.TC002_CreateLeadNeg -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

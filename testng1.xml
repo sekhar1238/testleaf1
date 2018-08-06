@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="week5" parallel="classes">
+  <test name="classwork2">
+    <classes>
+      <class name="week4day2.UsingSEMethods"/>
+      <class name="week4day2.flipkartTC"/>
+    </classes>
+  </test> <!-- classwork2 -->
+</suite> <!-- week5 -->

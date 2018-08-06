@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Leads]">
+  <test thread-count="5" name="LeadOperations(failed)" parallel="classes">
+    <classes>
+      <class name="week4day2.EditLead">
+        <methods>
+          <include name="login"/>
+          <include name="editLead"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- week4day2.EditLead -->
+      <class name="week4day2.CreateLead">
+        <methods>
+          <include name="login"/>
+          <include name="createLeads"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- week4day2.CreateLead -->
+    </classes>
+  </test> <!-- LeadOperations(failed) -->
+</suite> <!-- Failed suite [Leads] -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [week5]" parallel="classes">
+  <test thread-count="5" name="classwork2(failed)" parallel="classes">
+    <classes>
+      <class name="week4day2.UsingSEMethods">
+        <methods>
+          <include name="UsingSEMethod1"/>
+        </methods>
+      </class> <!-- week4day2.UsingSEMethods -->
+      <class name="week4day2.flipkartTC">
+        <methods>
+          <include name="flipkartTC1"/>
+        </methods>
+      </class> <!-- week4day2.flipkartTC -->
+    </classes>
+  </test> <!-- classwork2(failed) -->
+</suite> <!-- Failed suite [week5] -->
